@@ -1,5 +1,3 @@
-from pprint import pprint
-
 class Solution(object):
     def closedIsland(self, grid):
 
