@@ -10,13 +10,21 @@ class Solution {
         }
 
         int result = 0;
-        ArrayList<Integer> keys = new ArrayList<>(dict.keySet());
-        for (int key : keys) {
-            // 같은 색의 토끼가 하나 밖에 없다면
-            if (key == 1) {
-                result += dict.get(key);
-            } else {    // 같은 색의 토끼가 여러 마리라면
-                result += (key + 1);
+        for (Map.Entry<Integer, Integer> entry : dict.entrySet()) {
+            int key = entry.getKey();       // 답변
+            int count = entry.getValue();   // 해당 답변을 한 토끼 수
+
+            if (key == 0) {
+                result += count; // 각각 혼자만 있는 토끼
+            } else if (key == 1) {
+                result += (count / 2) * 2;
+                if (count % 2 != 0) {
+                    result += 2; // 짝이 안 맞으면 새 그룹 필요
+                }
+            } else {
+                int groupSize = key + 1;
+                int groupCount = (count + groupSize - 1) / groupSize; // 올림 나눗셈
+                result += groupCount * groupSize;
             }
         }
 
