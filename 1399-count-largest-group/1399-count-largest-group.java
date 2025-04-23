@@ -1,13 +1,13 @@
 class Solution {
     public int countLargestGroup(int n) {
-        Map<Integer, Integer> dict = new HashMap<>();
+        int[] cnt = new int[40];
 
         int max = 0;
         int count = 0;
         for (int i = 1; i < n + 1 ; i++) {
             int sum = calculate(i);
-            int value = dict.getOrDefault(sum, 0) + 1;
-            dict.put(sum, value);
+            int value = cnt[sum] + 1;
+            cnt[sum] += 1;
 
             if (value > max) {
                 max = value;
@@ -20,10 +20,10 @@ class Solution {
     }
 
     private int calculate(int num) {
-        String s = String.valueOf(num);
         int sum = 0;
-        for (int i = 0; i < s.length(); i++) {
-            sum += s.charAt(i) - '0';
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
         }
         return sum;
     }
