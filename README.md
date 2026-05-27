@@ -36,8 +36,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2540-minimum-common-value](https://github.com/zoyul/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/zoyul/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2540-minimum-common-value](https://github.com/zoyul/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/zoyul/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 <!---LeetCode Topics End-->
