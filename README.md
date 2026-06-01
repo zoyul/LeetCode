@@ -7,6 +7,7 @@
 | [0011-container-with-most-water](https://github.com/zoyul/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
 | [0200-number-of-islands](https://github.com/zoyul/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [2126-destroying-asteroids](https://github.com/zoyul/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zoyul/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2540-minimum-common-value](https://github.com/zoyul/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -34,6 +35,7 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/zoyul/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
 | [2126-destroying-asteroids](https://github.com/zoyul/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zoyul/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -53,4 +55,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2126-destroying-asteroids](https://github.com/zoyul/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zoyul/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 <!---LeetCode Topics End-->
