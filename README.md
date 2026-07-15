@@ -59,4 +59,12 @@
 | [1331-rank-transform-of-an-array](https://github.com/zoyul/LeetCode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2126-destroying-asteroids](https://github.com/zoyul/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/zoyul/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/zoyul/LeetCode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/zoyul/LeetCode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 <!---LeetCode Topics End-->
